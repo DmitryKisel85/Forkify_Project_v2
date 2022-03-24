@@ -29,6 +29,11 @@
   font-size: 1.5rem;
   font-weight: 600;
 
+  @media only screen and (max-width: $bp-standard) {
+    padding: 1rem 2.25rem;
+    font-size: 1.25rem;
+  }
+
   svg {
     height: 2.25rem;
     width: 2.25rem;
